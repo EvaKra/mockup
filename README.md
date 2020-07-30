@@ -14,5 +14,5 @@ $ cd mockup
 
 # Run
 $ serve 
-open http://localhost:8000/
+check on http://localhost:8000/
 ```
