@@ -28,6 +28,7 @@ h3 {
     line-height: 24px;
     margin-bottom: 0px;
 }
+
  p {
     font-weight: 500;
     line-height: 24px;
@@ -108,7 +109,7 @@ h3 {
     }
     .left {
         grid-column: 1;
-  }
+    }
 }
   
   @media(max-width: 768px) {
@@ -122,10 +123,10 @@ h3 {
         grid-column: 1;
         margin-top: 30px;
         padding-top: 20px;
-  }
-  .mockup img {
-    width: 70%;
-}
+    }
+    .mockup img {
+        width: 70%;
+    }
 }
 
 @media(max-width: 576px) {
