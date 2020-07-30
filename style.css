@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 h2 {
     color: #ff7f10;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: 0px;
 }
 
@@ -25,10 +26,12 @@ h3 {
     font-weight: 700;
     font-size: 1.17em;
     line-height: 24px;
+    margin-bottom: 0px;
 }
  p {
     font-weight: 500;
     line-height: 24px;
+    font-size: 0.85em
 }
 
 .split-50 {
@@ -84,7 +87,7 @@ h3 {
 }
   
 .mockup img {
-    width:400px;
+    width:100%;
 }
 
 .logo img {
@@ -112,9 +115,32 @@ h3 {
     .split-50 {
       grid-template-columns: 1fr;
     }
+    .left {
+        padding-top: 30px;
+    }
     .right {
         grid-column: 1;
         margin-top: 30px;
         padding-top: 20px;
   }
+  .mockup img {
+    width: 70vw;
+}
+}
+
+@media(max-width: 576px) {
+    .split-50 {
+      grid-template-columns: 1fr;
+    }
+    .left {
+        padding-top: 30px;
+    }
+    .right {
+        grid-column: 1;
+        margin-top: 30px;
+        padding-top: 20px;
+  }
+  .mockup img {
+    width: 100%;
+}
 }
